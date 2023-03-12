@@ -1,0 +1,114 @@
+{
+    "perguntas":[
+        {
+          "id": 1,
+          "pergunta": "Qual jogo da franquia Call of Duty se passa na Segunda Guerra Mundial?",
+          "alternativas": {
+            "alternativa-a": "Call of Duty: Modern Warfare",
+            "alternativa-b": "Call of Duty: Black Ops",
+            "alternativa-c": "Call of Duty: WWII",
+            "alternativa-d": "Call of Duty: Ghosts"
+          },
+          "correta": "alternativa-c"
+        },
+        {
+          "id": 2,
+          "pergunta": "Qual é o nome do personagem principal de God of War?",
+          "alternativas": {
+            "alternativa-a": "Kratos",
+            "alternativa-b": "Zeus",
+            "alternativa-c": "Hades",
+            "alternativa-d": "Poseidon"
+          },
+          "correta": "alternativa-a"
+        },
+        {
+          "id": 3,
+          "pergunta": "Qual é o nome do jogo de corrida desenvolvido pela Electronic Arts que tem carros de luxo como Lamborghinis, Ferraris e Bugattis?",
+          "alternativas": {
+            "alternativa-a": "Need for Speed",
+            "alternativa-b": "Forza Horizon",
+            "alternativa-c": "Gran Turismo",
+            "alternativa-d": "Project Cars"
+          },
+          "correta": "alternativa-a"
+        },
+        {
+          "id": 4,
+          "pergunta": "Qual é o jogo mais vendido de todos os tempos?",
+          "alternativas": {
+            "alternativa-a": "Minecraft",
+            "alternativa-b": "Tetris",
+            "alternativa-c": "Grand Theft Auto V",
+            "alternativa-d": "Call of Duty: Modern Warfare 3"
+          },
+          "correta": "alternativa-b"
+        },
+        {
+          "id": 5,
+          "pergunta": "Qual é o nome do jogo de estratégia em tempo real desenvolvido pela Blizzard Entertainment?",
+          "alternativas": {
+            "alternativa-a": "World of Warcraft",
+            "alternativa-b": "StarCraft",
+            "alternativa-c": "Diablo",
+            "alternativa-d": "Overwatch"
+          },
+          "correta": "alternativa-b"
+        },
+        {
+          "id":6,
+          "pergunta":"Qual é o nome do protagonista do jogo 'Metal Gear Solid'?",
+          "alternativas":{
+             "alternativa-a":"Solidus Snake",
+             "alternativa-b":"Liquid Snake",
+             "alternativa-c":"Naked Snake",
+             "alternativa-d":"Solid Snake"
+          },
+          "correta":"alternativa-d"
+       },
+       {
+          "id":7,
+          "pergunta":"Qual é o nome da protagonista do jogo 'Tomb Raider'?",
+          "alternativas":{
+             "alternativa-a":"Lara Croft",
+             "alternativa-b":"Chloe Frazer",
+             "alternativa-c":"Nathan Drake",
+             "alternativa-d":"Joel Miller"
+          },
+          "correta":"alternativa-a"
+       },
+       {
+          "id":8,
+          "pergunta":"Qual é o nome do protagonista do jogo 'The Witcher 3: Wild Hunt'?",
+          "alternativas":{
+             "alternativa-a":"Geralt of Rivia",
+             "alternativa-b":"Ezio Auditore",
+             "alternativa-c":"Arthur Morgan",
+             "alternativa-d":"John Marston"
+          },
+          "correta":"alternativa-a"
+       },
+       {
+        "id":9,
+        "pergunta":"Em que ano foi lançado o jogo 'Grand Theft Auto V'?",
+        "alternativas":{
+           "alternativa-a":"2011",
+           "alternativa-b":"2013",
+           "alternativa-c":"2015",
+           "alternativa-d":"2017"
+        },
+        "correta":"alternativa-b"
+     },
+     {
+        "id":10,
+        "pergunta":"Qual é o nome do vilão principal do jogo 'Batman: Arkham City'?",
+        "alternativas":{
+           "alternativa-a":"Two-Face",
+           "alternativa-b":"The Joker",
+           "alternativa-c":"Bane",
+           "alternativa-d":"The Riddler"
+        },
+        "correta":"alternativa-b"
+     }
+      ]
+}

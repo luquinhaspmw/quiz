@@ -1,0 +1,12 @@
+@import 'variables';
+
+@mixin flex($flex_direction,$justify_content,$align_itens){
+    display: flex;
+    flex-direction: $flex_direction;
+    justify-content: $justify_content;
+    align-items: $align_itens;
+}
+
+@mixin gradient($one,$two){
+    background: linear-gradient(to left,$one,$two);
+}

@@ -1,0 +1,167 @@
+@charset "utf-8";
+@import 'variables';
+@import 'mixins';
+@import 'animations';
+// Div root
+#rootQuiz{
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    width: $width-full;
+    max-width: $width-max-limited;
+    margin: 10px auto;
+    padding: 10px 0px;
+    @include flex(column,space-between,center);
+    gap:10px;
+
+    #loader{
+        border: 16px solid $thirdColor; 
+        border-top: 16px solid $transparentColor; 
+        border-radius: 50%; 
+        width: 100px; 
+        height: 100px; 
+        animation: spin 2s linear infinite; 
+        margin: 0 auto;
+    }
+    // Div de resultado final
+    .quiz-result{
+        box-shadow: 0px 0px 2px $thirdColor;
+        color: $secondColor;
+        padding: 10px;
+        width: $width-full;
+        text-align: center;
+        font-size: $font-size-h1;
+        gap: 20px;
+        @include flex(column,space-between,center);
+    }
+
+    // Div error de input vazio
+    .quiz-alert-error{
+        box-shadow: 0px 0px 2px $errorColor;
+        padding: 10px;
+        width: $width-child;
+        margin: 0 auto;
+        display: none;
+        align-items: center;
+        font-size: $font-size-p;
+        gap: 10px;
+
+        .quiz-icon{
+            width: 10%;
+        }
+        
+        @media screen and (min-width:700px) {
+            .quiz-icon{
+                width: 5%;
+            }
+        }
+    }
+
+    // Div que contém o counter e a pergunta
+    .quiz-title{
+        font-size: $font-size-h1;
+        @include flex(column,center,center);
+
+        .quiz-span{
+            padding: 1px;
+            width: $width-full;
+            text-align: center;
+            font-size:$font-size-p;
+            color: var(--color-one);
+        }
+        .quiz-pergunta{
+            hyphens: auto;
+            width: $width-child;
+            font-size: $font-size-h1;
+            text-align: justify;
+            margin: 10px 0px;
+            font-weight: bold;
+        }
+    }
+
+    .quiz-alternativas-container{
+        @include flex(column,space-between,start);
+        font-size: $font-size-p;
+        width: $width-child;
+        margin: 0 auto;
+        gap: 10px;
+        color: $fourthColor;
+
+        .quiz-alternativa-item{
+            @include flex(row,center,center);
+            width: $width-full;
+            padding: 10px;
+            gap: 10px;
+
+            .quiz-alternativa-input{
+                appearance: none;
+                width: 15px;
+                height: 15px;
+                border: 1px solid $thirdColor;
+                outline: none;
+                cursor: pointer;
+                transition: .6s;
+
+                &:checked{
+                    background-color: $thirdColor;
+                }
+            }
+            .quiz-alternativa-label{
+                width: $width-full;
+            }
+        }
+    }
+
+    .quiz-button{
+        appearance: none;
+        border: none;
+        padding: 10px 0px;
+        background-color: $transparentColor; 
+        text-align: center;
+        cursor: pointer;
+        box-shadow: 0px 0px 1px $thirdColor;
+        width: $width-child;
+        font-size: $font-size-btn;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .quiz-submit{
+        transition: .6s;
+        font-weight: bold;
+        margin: 0 auto;
+        color: $fourthColor;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        @include flex(row,center,center);
+
+        &::after{
+            content: '';
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 100%;
+            @include gradient($thirdColor,$secondColor);
+            z-index: -1;
+            transition: width .6s ease-in-out;
+            color: $fourthColor;
+            transform: translateX(-50%);
+        }
+
+        &:hover{
+            color: $whiteColor;
+            outline: 0;
+
+            &::after{
+                width: 110%;
+            }
+        }
+    }
+}

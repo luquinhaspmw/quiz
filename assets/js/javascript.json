@@ -1,0 +1,114 @@
+{
+    "perguntas": [
+        {
+            "id": 1,
+            "pergunta": "Qual é o resultado da expressão 2 + 2 em JavaScript?",
+            "alternativas": {
+              "alternativa-a": "3",
+              "alternativa-b": "4",
+              "alternativa-c": "5",
+              "alternativa-d": "6"
+            },
+            "correta": "alternativa-b"
+          },
+          {
+            "id": 2,
+            "pergunta": "Qual é a diferença entre 'null' e 'undefined' em JavaScript?",
+            "alternativas": {
+              "alternativa-a": "'null' é atribuído explicitamente a uma variável, enquanto 'undefined' é o valor padrão para uma variável não inicializada.",
+              "alternativa-b": "'null' é o valor padrão para uma variável não inicializada, enquanto 'undefined' é atribuído explicitamente a uma variável.",
+              "alternativa-c": "'null' e 'undefined' são sinônimos em JavaScript.",
+              "alternativa-d": "Não há diferença entre 'null' e 'undefined'."
+            },
+            "correta": "alternativa-a"
+          },
+          {
+            "id": 3,
+            "pergunta": "Qual é a forma correta de declarar uma variável em JavaScript?",
+            "alternativas": {
+              "alternativa-a": "var minhaVariavel = 10;",
+              "alternativa-b": "let minhaVariavel = 10;",
+              "alternativa-c": "const minhaVariavel = 10;",
+              "alternativa-d": "Todas as anteriores estão corretas."
+            },
+            "correta": "alternativa-d"
+          },
+          {
+            "id": 4,
+            "pergunta": "Qual é o operador usado para comparar valores e tipos em JavaScript?",
+            "alternativas": {
+              "alternativa-a": "==",
+              "alternativa-b": "===",
+              "alternativa-c": "!=",
+              "alternativa-d": "!=="
+            },
+            "correta": "alternativa-b"
+          },
+          {
+            "id": 5,
+            "pergunta": "Qual é o método usado para adicionar um elemento no final de um array em JavaScript?",
+            "alternativas": {
+              "alternativa-a": "array.unshift()",
+              "alternativa-b": "array.shift()",
+              "alternativa-c": "array.push()",
+              "alternativa-d": "array.pop()"
+            },
+            "correta": "alternativa-c"
+          },
+          {
+            "id": 6,
+            "pergunta": "Qual é o método usado para remover o último elemento de um array em JavaScript?",
+            "alternativas": {
+              "alternativa-a": "array.unshift()",
+              "alternativa-b": "array.shift()",
+              "alternativa-c": "array.push()",
+              "alternativa-d": "array.pop()"
+            },
+            "correta": "alternativa-d"
+          },
+          {
+            "id": 7,
+            "pergunta": "Qual é o método usado para converter uma string em um número em JavaScript?",
+            "alternativas": {
+              "alternativa-a": "parseNumber()",
+              "alternativa-b": "Number.parse()",
+              "alternativa-c": "Number()",
+              "alternativa-d": "parseInt()"
+            },
+            "correta": "alternativa-c"
+          },
+          {
+            "id": 8,
+            "pergunta": "Qual é a diferença entre let e var em JavaScript?",
+            "alternativas": {
+            "alternativa-a": "Não há diferença entre os dois.",
+            "alternativa-b": "let é usado para declarar variáveis ​​locais, enquanto var é usado para declarar variáveis ​​globais.",
+            "alternativa-c": "var é usado para declarar variáveis ​​locais, enquanto let é usado para declarar variáveis ​​globais.",
+            "alternativa-d": "let é usado para declarar variáveis ​​locais, enquanto var é usado para declarar variáveis de classe."
+            },
+            "correta": "alternativa-b"
+            },
+            {
+            "id": 9,
+            "pergunta": "Qual é o resultado da expressão '5' + 2 em JavaScript?",
+            "alternativas": {
+            "alternativa-a": "7",
+            "alternativa-b": "'52'",
+            "alternativa-c": "'5+2'",
+            "alternativa-d": "'2+5'"
+            },
+            "correta": "alternativa-b"
+            },
+            {
+            "id": 10,
+            "pergunta": "Qual é o método usado para verificar se uma determinada chave existe em um objeto em JavaScript?",
+            "alternativas": {
+            "alternativa-a": "object.checkKey()",
+            "alternativa-b": "object.containsKey()",
+            "alternativa-c": "object.hasKey()",
+            "alternativa-d": "object.hasOwnProperty()"
+            },
+            "correta": "alternativa-d"
+            }
+    ]
+}
